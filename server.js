@@ -15,6 +15,10 @@ connectDB();
 
 app.use(express.json());
 
+app.use(require('./routes/foodItems'));
+app.use(require('./routes/meals'));
+app.use(require('./routes/user'));
+
 //LISTENING ON PORT 3000
 app.listen(5000, () => {
     console.log("server is Listening on port 5000");

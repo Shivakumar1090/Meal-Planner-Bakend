@@ -5,7 +5,7 @@ const userSchema = new mongoose.Schema({
         type: String,
     },
     calorieRequirement:{
-        type: String,
+        type: Number,
     },
     mealPlan: [
         {

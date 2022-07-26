@@ -19,7 +19,7 @@ const fooditemShcema = new mongoose.Schema({
     acceptedUnits: {
         type: String,
         enum: ['ml','liter','kg','g'],
-        default: 'g',
+        // default: 'g',
     },
     itemWeight: {
         type: String,
